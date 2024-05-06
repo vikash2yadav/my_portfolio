@@ -21,6 +21,21 @@ a {
 }
 
 section{
-    height: 200vh;
+    height: 100vh;
+    width: 100vw;
     scroll-snap-align: center;
+    overflow: hidden;
 }
+
+// .course{
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .box{
+//         width: 200px;
+//         height: 200px;
+//         background-color: white;
+//     }
+// }
