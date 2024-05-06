@@ -1,14 +1,27 @@
 import './app.scss'
+import Navbar from './components/navbar/Navbar';
 
 const App = () => {
-  return <div>
-    <section> <a href="#">Home</a> </section>
-    <section>portpolio</section>
-    <section>portpolio2</section>
-    <section>portpolio3</section>
-    <section>portpolio4</section>
-    <section>portpolio5</section>
-  </div>;
+  return <>
+
+    <section id="Home"> 
+    <Navbar />  
+    </section>
+
+    <section id="About">
+      portpolio
+    </section>
+    
+    <section id="Service">
+      portpolio2
+    </section>
+    
+    <section id="Contact">
+      portpolio3
+    </section>
+    
+    {/* <Test />     <Test />    <Test />   */}
+  </>;
 };
 
 export default App;
