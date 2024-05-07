@@ -44,7 +44,7 @@ const Main = () => {
             <div className="wrapper">
 
                 <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate" >
-                    <motion.h2 variants={textVariants}>Your Name</motion.h2>
+                    <motion.h2 variants={textVariants}>Vikash Yadav</motion.h2>
                     <motion.h1 variants={textVariants}>Web developer and designer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <motion.button variants={textVariants}>See the Latest Works </motion.button>
@@ -54,7 +54,7 @@ const Main = () => {
                 </motion.div>
             </div>
            <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-                Write content creator
+                Web developer and mobile application developer
             </motion.div>
             <div className="imageContainer">
                 <img src="" alt="" />

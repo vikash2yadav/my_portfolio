@@ -1,6 +1,7 @@
 import './app.scss'
 import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
+import Services from './components/services/Services';
 
 const App = () => {
   return <div>
@@ -10,12 +11,13 @@ const App = () => {
       <Main />
     </section>
 
+    <section id="Service">
+      <Services />
+    </section>
+
     <section id="About">
     </section>
 
-    <section id="Service">
-      portpolio2
-    </section>
 
     <section id="Contact">
       portpolio3
