@@ -1,4 +1,5 @@
 import './app.scss'
+import Contact from './components/contact/Contact';
 import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
 import Portfolio from './components/portfolio/Portfolio';
@@ -22,6 +23,7 @@ const App = () => {
 
 
     <section id="Contact">
+      <Contact />
     </section>
 
     {/* <Test />     <Test />    <Test />   */}
