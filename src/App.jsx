@@ -1,6 +1,7 @@
 import './app.scss'
 import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
+import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 
 const App = () => {
@@ -15,12 +16,12 @@ const App = () => {
       <Services />
     </section>
 
-    <section id="About">
+    <section id="Portfolio">
+      <Portfolio />
     </section>
 
 
     <section id="Contact">
-      portpolio3
     </section>
 
     {/* <Test />     <Test />    <Test />   */}
