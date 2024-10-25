@@ -1,6 +1,9 @@
 import './app.scss'
+import Contact from './components/contact/Contact';
 import Main from './components/main/Main';
 import Navbar from './components/navbar/Navbar';
+import Portfolio from './components/portfolio/Portfolio';
+import Services from './components/services/Services';
 
 const App = () => {
   return <div>
@@ -10,15 +13,17 @@ const App = () => {
       <Main />
     </section>
 
-    <section id="About">
+    <section id="Service">
+      <Services />
     </section>
 
-    <section id="Service">
-      portpolio2
+    <section id="Portfolio">
+      <Portfolio />
     </section>
+
 
     <section id="Contact">
-      portpolio3
+      <Contact />
     </section>
 
     {/* <Test />     <Test />    <Test />   */}

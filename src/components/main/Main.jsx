@@ -24,13 +24,27 @@ const textVariants = {
     },
 }
 
+const sliderVariants = {
+    initial: {
+        x: 0,
+    },
+    animate: {
+        x: "-220%",
+        transition: {
+            duration: 20,
+            repeat: Infinity,
+            repeatType: "mirror"
+        },
+    },
+}
+
 const Main = () => {
     return (
         <div className="main">
             <div className="wrapper">
 
                 <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate" >
-                    <motion.h2 variants={textVariants}>Your Name</motion.h2>
+                    <motion.h2 variants={textVariants}>Vikash Yadav</motion.h2>
                     <motion.h1 variants={textVariants}>Web developer and designer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <motion.button variants={textVariants}>See the Latest Works </motion.button>
@@ -39,9 +53,9 @@ const Main = () => {
                     <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" alt="" />
                 </motion.div>
             </div>
-            <div className="slidingTextContainer">
-                Write content creator
-            </div>
+           <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
+                Web developer and mobile application developer
+            </motion.div>
             <div className="imageContainer">
                 <img src="" alt="" />
             </div>
